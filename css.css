@@ -1,0 +1,190 @@
+
+div.sidebar{
+margin-left: 1600px;
+margin-top: -3462px;
+}
+
+.image-container:hover.image{
+    transform: scale(1.1);
+}
+
+
+.zoom-image{
+    width: 100%;
+    transition: 0.3s ease;
+
+}
+.zoom-image:hover{
+    transform: scale(0.8);
+
+}
+
+.mer{
+    width: 770px;
+   
+}
+.bmw{
+    width: 770px;
+}
+
+.mac{
+    width: 770px;
+}
+
+.ren{
+    width: 770px;
+}
+
+.jeep{
+    width: 770px;
+}
+.benz{
+    top: -100px;
+}
+/*.image-container{
+    display: flex; 
+    justify-content: center;
+    flex-wrap: wrap; 
+    gap: 10px;
+}
+.image-container img {
+    max-width: 70%; 
+    height: auto; 
+    border: 2px solid #ccc; 
+}*/
+
+.image-container{
+    display: flex;
+    justify-content: center;
+
+}
+
+/*.mers{
+    display: flex;
+    align-items: center;
+    width: auto;
+    margin-top: -297px;
+}
+*/
+@keyframes  tiko{
+ from{
+    width: 50px;
+    height: 50px;
+    transform: translateX(0);
+   
+    
+ }
+ 50%{
+    width: 100px;
+    height: 100px;
+    transform: translateX(100px);
+
+ }
+ /*75%{
+    width: 200px;
+    height: 200px;
+
+}
+90%{
+    width: 300px;
+    height: 300px;
+  }*/
+
+ to{
+    width: 400px;
+    height: 400px;
+    transform: translateX(0);
+ }
+ 
+}
+/*@keyframes tiko {
+    0% {
+        transform: translateX(0);
+    }
+    50% {
+        transform: translateX(100px);
+    }
+    100% {
+        transform: translateX(0);
+    }
+}*/
+.tt{
+animation-name: tiko;    
+ }
+ .tt{
+    animation: some-animation;
+ }
+ .tt{
+    animation: none;
+ }
+ .tt{
+    animation-name: tiko;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    animation-duration: alternate;
+    transform: translateX(100px);
+    transition: transform 0.5s ease;
+
+
+
+
+ }
+
+ .mers{
+    animation-name: tiko;    
+     }
+     .mers{
+        animation: some-animation;
+     }
+     .mers{
+        animation: none;
+     }
+     .mers{
+        animation-name: tiko;
+        animation-duration: 5s;
+        animation-iteration-count: infinite;
+        animation-duration: alternate;
+     }
+    .logomer{
+    margin-right: 20px;
+}
+.audi2019{
+    display: flex;
+    align-items: center;
+    width: auto;
+    margin-top: 300px;
+
+
+}
+
+
+
+.mers{
+    display: grid;
+    grid-template-rows: auto auto;
+    justify-items: center;
+}
+img{
+    margin: 10px 0;
+}
+.audi{
+    display: grid;
+    grid-template-rows: auto auto;
+    justify-items: center;
+}
+img{
+    margin: 10px 0;
+}
+.tt{
+    margin-top: -27px;
+    animation-name: tiko;
+}
+
+.hea{
+    margin-left: -20px;
+}
+
+.rep{
+text-align: right;
+margin-top: -50px;
+}
